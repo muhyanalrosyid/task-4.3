@@ -1,0 +1,41 @@
+name: task4_3
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get_cli: ^1.8.1
+  get: 4.6.6
+  flutter_iconly: 1.0.2
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^3.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  assets: 
+    - assets/avatar.png
+    - assets/google.png
+    - assets/logo.png
+
+fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+uses-material-design: true
+
